@@ -1,9 +1,13 @@
 # wide-area-data-transfer-logs
 Data used in our paper entitled "An Online, Machine Learning-Based Wide Area Data Transfer Performance Predictor". Some features are defined in paper: https://doi.org/10.1145/3078597.3078605
 
-__src__: The source endpoint name. It has been anonymized. In which GCP denotes Globus Connect Personal and GCS represents Globus Connect Server.
+Please contact zhengchun.liu-AT-anl.gov if you have any questions about the data.
 
-__dst__: The destination endpoint name. It has been anonymized. In which GCP denotes Globus Connect Personal and GCS represents Globus Connect Server. 
+Data explanation: 
+
+__src__: The source endpoint name. It has been anonymized. In which, GCP denotes Globus Connect Personal and GCS represents Globus Connect Server.
+
+__dst__: The destination endpoint name. It has been anonymized. In which, GCP denotes Globus Connect Personal and GCS represents Globus Connect Server. 
 
 __request_time__: the time when transfer was initiated by user. The minute and second have been anonymized to zero. 
 
