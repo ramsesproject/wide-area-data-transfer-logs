@@ -1,53 +1,57 @@
 # wide-area-data-transfer-logs
 Data used in our paper entitled "An Online, Machine Learning-Based Wide Area Data Transfer Performance Predictor". Some features are defined in paper: https://doi.org/10.1145/3078597.3078605
 
-src: The source endpoint name. It has been anonymized. In which GCP denotes Globus Connect Personal and GCS represents Globus Connect Server.
+___Please contact Zhengchun Liu <zhengchun.liu-AT-anl.gov> if you have any questions about the data.___
 
-dst: The destination endpoint name. It has been anonymized. In which GCP denotes Globus Connect Personal and GCS represents Globus Connect Server. 
+Data explanation: 
 
-request_time: the time when transfer was initiated by user. The minute and second have been anonymized to zero. 
+__src__: The source endpoint name. It has been anonymized. In which, GCP denotes Globus Connect Personal and GCS represents Globus Connect Server.
 
-R: transfer throughput
+__dst__: The destination endpoint name. It has been anonymized. In which, GCP denotes Globus Connect Personal and GCS represents Globus Connect Server. 
 
-Ksout: Contending outgoing transfer rate on source endpoint
+__request_time__: the time when transfer was initiated by user. The minute and second have been anonymized to zero. 
 
-Kdin: Contending incoming transfer rate on destination endpoint
+__R__: transfer throughput
 
-C: Concurrency: Number of GridFTP processes
+__Ksout__: Contending outgoing transfer rate on source endpoint
 
-P: Parallelism: Number of TCP channels per process
+__Kdin__: Contending incoming transfer rate on destination endpoint
 
-D: Pipeline depth
+__C__: Concurrency: Number of GridFTP processes
 
-Ssout: Number of outgoing TCP streams on source endpoint
+__P__: Parallelism: Number of TCP channels per process
 
-Ssin: Number of incoming TCP streams on source endpoint
+__D__: Pipeline depth
 
-Sdout: Number of outgoing TCP streams on destination endpoint
+__Ssout__: Number of outgoing TCP streams on source endpoint
 
-Sdin: Number of incoming TCP streams on destination endpoint
+__Ssin__: Number of incoming TCP streams on source endpoint
 
-Ksin: Contending incoming transfer rate on source endpoint
+__Sdout__: Number of outgoing TCP streams on destination endpoint
 
-Kdout: Contending outgoing transfer rate on destination endpoint
+__Sdin__: Number of incoming TCP streams on destination endpoint
 
-Nd: Number of directories transferred.
+__Ksin__: Contending incoming transfer rate on source endpoint
 
-Nb: Total number of bytes transferred. 
+__Kdout__: Contending outgoing transfer rate on destination endpoint
 
-Qsout: Contending outgoing transfer rate on the institution of the source endpoint
+__Nd__: Number of directories transferred.
 
-Qdin: Contending incoming transfer rate on the institution of the destination endpoint
+__Nb__: Total number of bytes transferred. 
 
-Qsin: Contending incoming transfer rate on the institution of the source endpoint
+__Qsout__: Contending outgoing transfer rate on the institution of the source endpoint
 
-Qdout: Contending outgoing transfer rate on the institution of the destination endpoint
+__Qdin__: Contending incoming transfer rate on the institution of the destination endpoint
 
-Gsrc: GridFTP instance count on source endpoint
+__Qsin__: Contending incoming transfer rate on the institution of the source endpoint
 
-Gdst: GridFTP instance count on destination endpoint
+__Qdout__: Contending outgoing transfer rate on the institution of the destination endpoint
 
-Nf: Number of files transferred.
+__Gsrc__: GridFTP instance count on source endpoint
+
+__Gdst__: GridFTP instance count on destination endpoint
+
+__Nf__: Number of files transferred.
 
 All values are normalized to zero-mean, by each source-to-destination endpoint pair. 
 
